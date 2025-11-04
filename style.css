@@ -1,5 +1,6 @@
 body {
   font-family: "Open Sans", sans-serif;
+  background-color: #FFFFFF;
 }
 
 header {
@@ -43,4 +44,25 @@ header nav a {
 .intro h1 {
   font-size: 40px;
   margin-bottom: 0.2em;
+}
+
+.intro p {
+  max-width: 600px;
+}
+
+main {
+  background-image: url("bg.jpg");
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  background-color: #FFFFFF;
+  padding: 80px 20px;
+}
+
+main h1 {
+  font-size: 32px;
+}
+
+div {
+  display: grid;
 }/*# sourceMappingURL=style.css.map */
