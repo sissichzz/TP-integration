@@ -1,8 +1,46 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
 header {
   background-color: #111111;
-  color: white;
+  color: #FFFFFF;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 15px 40px;
+  padding: 5px 20px;
+}
+
+header a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+header nav a {
+  color: #FFFFFF;
+  text-decoration: none;
+  opacity: 50%;
+  margin-left: 20px;
+}
+
+.intro p {
+  color: #FFFFFF;
+  opacity: 50%;
+}
+
+.intro {
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+  background-image: url(banner2.jpg);
+  box-shadow: inset 80px;
+}
+
+.intro h1 {
+  font-size: 40px;
+  margin-bottom: 0.2em;
 }/*# sourceMappingURL=style.css.map */
